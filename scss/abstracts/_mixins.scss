@@ -1,0 +1,21 @@
+@mixin titles($size, $height, $space, $color, $weight) {
+  font-size: $size;
+  line-height: $height;
+  letter-spacing: $space;
+  color: $color;
+  font-weight: $weight;
+}
+@mixin responsive($size) {
+  @if $size == tablet {
+    @media screen and (max-width: 1138px) {
+      @content;
+    }
+  }
+}
+@mixin responsive-mobile($size) {
+  @if $size == mobile {
+    @media screen and (max-width: 750px) {
+      @content;
+    }
+  }
+}

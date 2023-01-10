@@ -1,0 +1,75 @@
+.footer__container {
+  padding-top: 10.2rem;
+  display: flex;
+  gap: 37rem;
+  @include responsive(tablet) {
+    padding-top: 6.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+.footer__imgs {
+  display: flex;
+  gap: 1.8rem;
+}
+.apstory {
+  background-color: $Dark-Navy-color;
+  height: 30rem;
+  width: 100%;
+}
+.footer__titl {
+  font-family: $font-family;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.142857074737549px;
+  text-align: left;
+  color: #fff;
+  @include responsive(tablet) {
+    width: 457px;
+    text-align: center;
+  }
+}
+.footer__oval {
+  margin-top: -6rem;
+  margin-left: 20rem;
+  @include responsive(tablet) {
+    margin-top: -12rem;
+    margin-left: -15rem;
+    width: 1253px;
+  }
+}
+.footer__two {
+  display: flex;
+  gap: 2.4rem;
+  @include responsive-mobile(mobile) {
+    margin-top: -18rem;
+  }
+}
+.footer__siyt {
+  background-color: #333a44;
+  position: relative;
+}
+.footr__container {
+  @include responsive-mobile(mobile) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.pege {
+  @include responsive-mobile(mobile) {
+    margin-top: 6.4rem;
+  }
+}
+.fecebook:hover {
+  background-color: white;
+}
+.instagram:hover {
+  background-color: white;
+}
+.twiter:hover {
+  background-color: white;
+}

@@ -1,0 +1,436 @@
+.hero {
+  padding: 20.3rem 0 15.2rem;
+  background-image: url("../../images/jpg/home-hero-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  @include responsive-mobile(mobile) {
+    background-position: right;
+  }
+}
+.main__titl {
+  margin-bottom: 4rem;
+  @include responsive(tablet) {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.4rem;
+  }
+}
+.main__titl-text {
+  font-family: $font-family;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  text-align: left;
+  color: #ffffff;
+  width: 490px;
+  @include responsive(tablet) {
+    text-align: center;
+    width: 530px;
+  }
+  @include responsive-mobile(mobile) {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.7857142686843872px;
+    text-align: center;
+    width: 311px;
+  }
+}
+.main__titl-img {
+  display: flex;
+  padding-bottom: 15.2rem;
+  @include responsive(tablet) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.main__line {
+  position: relative;
+  margin-left: -21.5rem;
+  margin-top: 3.7rem;
+  @include responsive(tablet) {
+    display: none;
+  }
+}
+.main-description {
+  font-family: $font-family-bold;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+  width: 40.5rem;
+  height: 10rem;
+  margin-left: 5.7rem;
+  margin-bottom: 4rem;
+  @include responsive(tablet) {
+    text-align: center;
+    width: 523px;
+  }
+  @include responsive-mobile(mobile) {
+    width: 280px;
+    text-align: center;
+    margin-bottom: 10.4rem;
+  }
+}
+.main__description-btn {
+  @include responsive(tablet) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.main__line-twou {
+  margin-left: 4rem;
+  margin-top: 3.7rem;
+  @include responsive(tablet) {
+    margin-left: -58rem;
+  }
+}
+.main__btn {
+  margin-left: 5.5rem;
+  @include responsive(tablet) {
+    margin-top: -40px;
+  }
+}
+.main__path-images {
+  margin-top: 20.9rem;
+  margin-left: -20.5rem;
+  @include responsive(tablet) {
+    display: none;
+  }
+}
+.main-path1 {
+  display: none;
+  @include responsive(tablet) {
+    display: block;
+    margin-left: 4rem;
+  }
+  @include responsive-mobile(mobile) {
+    display: none;
+  }
+}
+.main__path-link {
+  display: flex;
+  gap: 28.4rem;
+  margin-top: -5.5rem;
+  @include responsive(tablet) {
+    flex-direction: column;
+    gap: 7.4rem;
+    margin-top: -35rem;
+  }
+  @include responsive-mobile(mobile) {
+    display: none;
+  }
+}
+.main__path-container {
+  margin-bottom: 4rem;
+}
+.main__path-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14.7rem;
+  @include responsive(tablet) {
+    flex-direction: column;
+    gap: 4rem;
+    margin-left: auto;
+    margin-top: 15rem;
+    margin-left: 13.1rem;
+    width: 100%;
+  }
+  @include responsive-mobile(mobile) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+.path__container {
+  @include responsive(tablet) {
+    display: flex;
+  }
+}
+.mobil-img {
+  display: none;
+  @include responsive(tablet) {
+    display: none;
+  }
+  @include responsive-mobile(mobile) {
+    margin-bottom: 2.4rem;
+    display: block;
+  }
+}
+.main__locate {
+  width: 35rem;
+  @include responsive-mobile(mobile) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.main__locate-titl {
+  font-family: $font-family;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285373687744px;
+  text-align: left;
+  color: $Dark-Navy-color;
+  margin-bottom: 2.7rem;
+}
+.main__locate-description {
+  font-family: $font-family-bold;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: $Dim-Grey-color;
+  width: 33.5rem;
+  @include responsive-mobile(mobile) {
+    width: 311px;
+    text-align: center;
+    margin-bottom: 2.4rem;
+  }
+}
+.easy__images {
+  @include responsive(tablet) {
+    margin-left: 30rem;
+  }
+  @include responsive-mobile(mobile) {
+    width: 700px;
+    height: 311px;
+    margin-right: 5rem;
+    margin-top: -20rem;
+  }
+}
+.easy__container {
+  display: flex;
+  gap: 14rem;
+  margin-bottom: 16.8rem;
+  @include responsive(tablet) {
+    margin-bottom: 13.6rem;
+  }
+}
+.esy__gm {
+  @include responsive(tablet) {
+    display: none;
+  }
+}
+.esy__imgs {
+  display: none;
+  @include responsive(tablet) {
+    display: block;
+    margin-bottom: 5.6rem;
+  }
+}
+.easy__titl {
+  margin-top: 8rem;
+  @include responsive(tablet) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  @include responsive-mobile(mobile) {
+    margin-top: -1rem;
+  }
+}
+.easy__titl-text {
+  width: 44.5rem;
+  font-family: $font-family;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.142857074737549px;
+  text-align: left;
+  color: $Dark-Navy-color;
+  margin-bottom: 2.4rem;
+  @include responsive(tablet) {
+    text-align: center;
+    width: 457px;
+  }
+  @include responsive-mobile(mobile) {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.4285714626312256px;
+    text-align: center;
+  }
+}
+.easy__description {
+  font-family: $font-family-bold;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: $Dim-Grey-color;
+  width: 44.5rem;
+  height: 10rem;
+  margin-bottom: 4rem;
+  @include responsive(tablet) {
+    text-align: center;
+    width: 457px;
+  }
+  @include responsive-mobile(mobile) {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 311px;
+  }
+}
+.sity_continear {
+  display: flex;
+  gap: 16.6rem;
+  margin-bottom: 16.8rem;
+  @include responsive(tablet) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5.5rem;
+  }
+  @include responsive-mobile(mobile) {
+    padding-bottom: 12rem;
+  }
+}
+.city__img {
+  margin-left: -58rem;
+  @include responsive-mobile(mobile) {
+    margin-left: -23rem;
+    margin-top: 12rem;
+  }
+}
+.city__text {
+  width: 44rem;
+  @include responsive-mobile(mobile) {
+    width: 290px;
+  }
+}
+.city__description {
+  width: 40rem;
+  @include responsive-mobile(mobile) {
+    width: 311px;
+  }
+}
+.img__tablet {
+  @include responsive(tablet) {
+    display: none;
+  }
+}
+.easy__litl {
+  @include responsive(tablet) {
+    margin-right: 20rem;
+  }
+  @include responsive-mobile(mobile) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.zero__img {
+  display: none;
+  @include responsive(tablet) {
+    display: block;
+    margin-bottom: 5rem;
+    margin-left: 70rem;
+  }
+  @include responsive-mobile(mobile) {
+    margin-left: 63rem;
+  }
+}
+.zero__text {
+  @include responsive(tablet) {
+    margin-left: 12rem;
+  }
+  @include responsive-mobile(mobile) {
+    width: 300px;
+    text-align: center;
+    margin-left: 20rem;
+  }
+}
+.zero__dest {
+  @include responsive(tablet) {
+    margin-left: 12rem;
+  }
+}
+.zero__container {
+  display: flex;
+  gap: 22rem;
+  margin-bottom: 16.8rem;
+  @include responsive(tablet) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    margin-bottom: 10.4rem;
+    margin-top: -10rem;
+  }
+  @include responsive-mobile(mobile) {
+    margin-top: 15rem;
+  }
+}
+.easy__simpl {
+  @include responsive(tablet) {
+    margin-left: -10rem;
+  }
+}
+.easy__litl {
+  @include responsive(tablet) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.zero__des {
+  @include responsive(tablet) {
+    margin-left: 12rem;
+  }
+  @include responsive-mobile(mobile) {
+    width: 311px;
+    text-align: center;
+    margin-left: 20rem;
+  }
+}
+.mtb {
+  @include responsive(tablet) {
+    margin-left: 12rem;
+  }
+  @include responsive-mobile(mobile) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20rem;
+  }
+}
+.footer__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5.8rem;
+
+  @include responsive-mobile(mobile) {
+    background-color: #333a44;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.esymain {
+  @include responsive-mobile(mobile) {
+    width: 100%;
+    margin-top: 10rem;
+  }
+}

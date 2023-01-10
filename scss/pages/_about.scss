@@ -1,0 +1,256 @@
+.about__section {
+  margin-top: 9.5rem;
+  padding-top: 7.2rem;
+  padding-bottom: 7.2rem;
+  background-image: url("../../images/png/abot.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  @include responsive(tablet) {
+    background-position: right;
+  }
+  @include responsive-mobile(mobile) {
+    background-position: center;
+  }
+}
+.phon {
+  margin-top: 5rem;
+}
+.about__titl {
+  font-family: $font-family;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  text-align: left;
+  color: #fff;
+}
+.about__easy {
+  margin-top: 19.2rem;
+}
+.about__img {
+  margin-left: 42rem;
+}
+.about__description {
+  width: 410px;
+}
+.our__titl {
+  margin-top: -70px;
+  margin-bottom: 90px;
+  h1 {
+    font-family: $font-family;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: center;
+    color: $Dark-Navy-color;
+  }
+}
+.our__images {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+  @include responsive(tablet) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12rem;
+  }
+}
+.our__link {
+  font-family: $font-family;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285373687744px;
+  text-align: center;
+  color: $Dark-Navy-color;
+  width: 320px;
+  margin-bottom: 2.7rem;
+}
+.our__description {
+  font-family: $font-family-bold;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 320px;
+  color: $Dim-Grey-color;
+}
+.our__text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12rem;
+}
+body {
+  a {
+    text-decoration: none;
+  }
+}
+.works__text {
+  font-family: $font-family;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.142857074737549px;
+  text-align: center;
+  color: $Dark-Navy-color;
+  margin-bottom: 6.4rem;
+  @include responsive-mobile(mobile) {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: center;
+  }
+}
+.works__city {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 6.4rem;
+}
+.works__team {
+  font-family: $font-family;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1.7857142686843872px;
+  text-align: left;
+  color: $Dark-Navy-color;
+}
+.works__acordion {
+  width: 730px;
+}
+.works__team {
+  width: 350px;
+}
+.city__tex {
+  @include responsive(tablet) {
+    margin: 0;
+    margin-top: 7rem;
+  }
+}
+.ab__container {
+  margin-top: 7rem;
+}
+.easy__ges {
+  @include responsive(tablet) {
+    margin-right: 30rem;
+  }
+}
+.easy__tion {
+  width: 400px;
+}
+.works__titl {
+  margin-top: 10rem;
+}
+.workss__titl {
+  display: flex;
+  justify-content: space-between;
+  @include responsive(tablet) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.works__item {
+  border: solid 1px transparent;
+  @include responsive-mobile(tablet) {
+    width: 100%;
+  }
+  @include responsive-mobile(mobile) {
+    width: 311px;
+  }
+
+  h2 {
+    margin-left: 4rem;
+    margin-top: 3.2rem;
+    margin-bottom: 2.4rem;
+    font-family: $font-family;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: left;
+    color: $Dark-Navy-color;
+    @include responsive(tablet) {
+      margin-right: auto;
+    }
+    @include responsive-mobile(mobile) {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.8035714030265808px;
+      text-align: left;
+    }
+  }
+  p {
+    margin-left: 4rem;
+    margin-bottom: 3.2rem;
+    width: 650px;
+    margin-right: 4rem;
+    font-family: $font-family-bold;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $Dark-Navy-color;
+    @include responsive(tablet) {
+      margin-left: 4rem;
+    }
+    @include responsive-mobile(mobile) {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0px;
+      text-align: left;
+      width: 251px;
+    }
+  }
+}
+.works__item {
+  border: solid 1px transparent;
+  margin-bottom: 16px;
+  background-color: #f2f5f9;
+  display: flex;
+  @include responsive(tablet) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.works__link {
+  margin-bottom: 6.4rem;
+}
+.works__tex {
+  width: 350px;
+}
+.esypage {
+  @include responsive(tablet) {
+    margin-top: 10rem;
+  }
+  @include responsive-mobile(mobile) {
+    margin-top: 30rem;
+  }
+}
+.lest {
+  @include responsive(tablet) {
+    margin-left: 5rem;
+  }
+  @include responsive-mobile(mobile) {
+    margin-left: -10rem;
+  }
+}
+.gimn {
+  @include responsive-mobile(mobile) {
+    margin-top: -1rem;
+  }
+}
+.gim {
+  @include responsive-mobile(mobile) {
+    margin-top: 6rem;
+  }
+}

@@ -1,0 +1,138 @@
+.blog__titl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px transparent;
+  padding-top: 33.5px;
+  padding-bottom: 33.5px;
+  padding-left: 4rem;
+  padding-right: 6.4rem;
+  background-color: rgba(242, 245, 249, 1);
+  margin-bottom: 2.4rem;
+  @include responsive-mobile(mobile) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.btn-corrers {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  font-family: $font-family;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #fff;
+  border: $yellow-color;
+  background-color: $yellow-color;
+  @include responsive-mobile(mobile) {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 10.3rem;
+    padding-right: 10.3rem;
+    font-family: $font-family;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #fff;
+    border: $yellow-color;
+    background-color: $yellow-color;
+  }
+}
+.esysect {
+  margin-top: 10rem;
+  @include responsive(tablet) {
+    margin-top: -30rem;
+  }
+}
+.blog__link {
+  h3 {
+    font-family: $font-family;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: left;
+    color: $Dark-Navy-color;
+    @include responsive-mobile(mobile) {
+      text-align: center;
+    }
+  }
+  p {
+    font-family: $font-family-bold;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $Dark-Navy-color;
+    @include responsive-mobile(mobile) {
+      text-align: center;
+    }
+  }
+  @include responsive-mobile(mobile) {
+    margin-bottom: 1.6rem;
+  }
+}
+.blog__container {
+  margin-bottom: 13.8rem;
+}
+.corrers__section {
+  padding-top: 7.2rem;
+  padding-bottom: 7.2rem;
+  background-image: url("../../images/png/corre.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  @include responsive(tablet) {
+    background-position: right;
+  }
+  @include responsive-mobile(mobile) {
+    background-position: center;
+  }
+}
+.segam {
+  @include responsive(tablet) {
+    margin-left: 6rem;
+    width: 500px;
+  }
+}
+.corrers-isy {
+  @include responsive-mobile(mobile) {
+    margin-top: 25rem;
+  }
+}
+.corrers-main {
+  @include responsive(tablet) {
+    margin-top: -2.7rem;
+  }
+}
+.easy__gm {
+  @include responsive(tablet) {
+    margin-top: -15rem;
+    margin-right: 30rem;
+  }
+}
+.our__cemp {
+  display: none;
+  @include responsive(tablet) {
+    display: block;
+  }
+}
+.alig {
+  @include responsive-mobile(mobile) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.footer__two {
+  a:hover path {
+    fill: rgba(229, 236, 244, 1);
+  }
+}
